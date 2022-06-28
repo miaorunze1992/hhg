@@ -19,9 +19,6 @@
     cursor: pointer;
 
  }
- #btn2 {
-  background-color: red;
- }
  
 
 
