@@ -33,6 +33,15 @@ public class RegisterServlet extends HttpServlet{
 		
 		String[] hobby  = req.getParameterValues("hobby");
 		
+		System.out.println(username);
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	}
