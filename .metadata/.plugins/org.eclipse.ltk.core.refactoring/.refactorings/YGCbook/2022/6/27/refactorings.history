@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;co.jp.netwisdom.dao.Hobby&apos; to &apos;HobbyDAO&apos;&#x0D;&#x0A;- Original project: &apos;YGCbook&apos;&#x0D;&#x0A;- Original element: &apos;co.jp.netwisdom.dao.Hobby&apos;&#x0D;&#x0A;- Renamed element: &apos;co.jp.netwisdom.dao.HobbyDAO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Hobby&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;co.jp.netwisdom.dao{Hobby.java[Hobby" matchStrategy="1" name="HobbyDAO" qualified="false" references="true" similarDeclarations="false" stamp="1656403969485" textual="false" version="1.0"/>
+</session>
