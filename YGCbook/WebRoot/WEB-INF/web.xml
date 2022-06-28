@@ -586,6 +586,24 @@
     <servlet-name>ChangeServlet</servlet-name>
     <url-pattern>/ChangeServlet</url-pattern>
   </servlet-mapping>
+  
+  
+  <!-- 后台servlet -->
+  <servlet>
+  	<servlet-name>registerServlet</servlet-name>
+  	<servlet-class>co.jp.netwisdom.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <!-- 前台servlet-mapping -->
+  <servlet-mapping>
+  	<servlet-name>registerServlet</servlet-name>
+  	<url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
   <!--<error-page>
   	<error-code>404</error-code>
   	<location>/error404.jsp</location>
