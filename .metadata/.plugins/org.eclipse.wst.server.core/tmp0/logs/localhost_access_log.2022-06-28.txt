@@ -63,3 +63,5 @@
 0:0:0:0:0:0:0:1 - - [28/Jun/2022:15:42:45 +0900] "GET /YGCbook/register?username=miao&password=123&sex=1&major=0&hobby=1&intro=abcd32 HTTP/1.1" 404 983
 0:0:0:0:0:0:0:1 - - [28/Jun/2022:15:43:15 +0900] "GET /YGCbook/register?username=miao&password=sdsad&sex=1&major=0&hobby=1&intro=abcd32df HTTP/1.1" 404 983
 0:0:0:0:0:0:0:1 - - [28/Jun/2022:15:44:14 +0900] "GET /YGCbook/register?username=miao&password=34423&sex=1&major=0&hobby=1&hobby=2&intro=abcd32df HTTP/1.1" 404 983
+127.0.0.1 - - [28/Jun/2022:16:11:27 +0900] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [28/Jun/2022:16:11:52 +0900] "GET /YGCbook/register?username=miao&password=123&sex=0&major=0&hobby=0&hobby=1&hobby=2&intro=abcd32d3f HTTP/1.1" 200 -
