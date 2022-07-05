@@ -1,0 +1,11 @@
+package co.jp.netwisdom.dto;
+
+public class UserinfoAndHobbyDTO {
+	
+	private String username;
+	private String sex;
+	private String major;
+	private String hobby;
+	private String intro;
+
+}

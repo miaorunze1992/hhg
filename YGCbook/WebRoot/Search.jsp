@@ -1,10 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ <%@page import="co.jp.netwisdom.dto.UserinfoAndHobbyDTO"%>
+  <%@page import="java.util.List"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>用户查询</title>
+<% List<UserinfoAndHobbyDTO> dtos = (List<UserinfoAndHobbyDTO>)request.getAttribute("dtos");%>
 </head>
 <body>
 	<form action="search" method="get">
@@ -19,8 +22,8 @@
 		<select id="major" name="major">
 			<option value="">-</option>
 			<option value="0">计算机</option>
-			<option value="1">英语</option>
-			<option value="2">数学</option>
+			<option value="1">数学</option>
+			<option value="2">英语</option>
 		</select>
 		<br>
 		<input type="submit" value="提交" />
@@ -35,6 +38,22 @@
 			<th>爱好</th>
 			<th>简介</th>
 		</tr>
+		<% if(dtos!=null){ %>
+			<% for(UserinfoAndHobbyDTO dto :dtos){%>
+			<tr>
+				<td><%=dto.getUsername() %></td>
+				<td><%=dto.getSex().replace("0", "男").replace("1", "女")%></td>
+				<td><%=dto.getMajor().replace("0", "计算机").replace("1", "数学").replace("2", "英语") %></td>
+				<td>
+					<%=dto.getHobbyList().contains("0")?"足球":""%>
+					<%=dto.getHobbyList().contains("1")?"篮球":""%>
+					<%=dto.getHobbyList().contains("2")?"网球":""%>
+				</td>
+				<td><%=dto.getIntro() %></td>
+			</tr>
+			<%}%>
+		<%} %>
 	</table>
+	
 </body>
 </html>

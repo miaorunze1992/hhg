@@ -1,0 +1,14 @@
+package co.jp.netwisdom.dto;
+
+import java.util.List;
+
+public class UserinfoAndHobbyDTO {
+	
+	private String username;
+	private String sex;
+	private String major;
+	private String intro;
+	
+	List<String> hobbyList;
+
+}

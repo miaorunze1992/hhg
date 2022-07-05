@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="co.jp.netwisdom.entity.Userinfo"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="co.jp.netwisdom.entity.Hobby"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="cn.key.dbManager.IResultSetMapping"/>
+<fullyQualifiedTypeName name="co.jp.netwisdom.mapping.UserinfoAndHobbyMapping"/>
+<fullyQualifiedTypeName name="co.jp.netwisdom.dao.UserinfoDAO"/>
+<fullyQualifiedTypeName name="co.jp.netwisdom.entity.UserinfoAndHobby"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package co.jp.netwisdom.mapping;
+
+public class UserinfoAndHobbyMapping implements IResultSetMapping{
+
+}

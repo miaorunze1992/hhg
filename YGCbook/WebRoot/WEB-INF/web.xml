@@ -588,7 +588,7 @@
   </servlet-mapping>
   
   
-  <!-- ºóÌ¨servlet -->
+  <!-- ï¿½ï¿½Ì¨servlet -->
   <servlet>
   	<servlet-name>registerServlet</servlet-name>
   	<servlet-class>co.jp.netwisdom.servlet.RegisterServlet</servlet-class>
@@ -599,6 +599,18 @@
   	<servlet-name>registerServlet</servlet-name>
   	<url-pattern>/register</url-pattern>
   </servlet-mapping>
+  
+  
+  
+  <servlet>
+  	<servlet-name>searchServlet</servlet-name>
+  	<servlet-class>co.jp.netwisdom.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>searchServlet</servlet-name>
+  	<url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
   
   
   

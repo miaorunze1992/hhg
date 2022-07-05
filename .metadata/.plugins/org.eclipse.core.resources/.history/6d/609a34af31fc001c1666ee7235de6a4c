@@ -1,0 +1,7 @@
+package co.jp.netwisdom.mapping;
+
+import cn.key.dbManager.IResultSetMapping;
+
+public class UserinfoAndHobbyMapping implements IResultSetMapping{
+
+}
