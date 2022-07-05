@@ -7,7 +7,7 @@
 <title>注册页面</title>
 <style>
  .btn {
-     background-color: #4CAF50;
+     background-color: lightskyblue;
     border: none;
     color: white;
     padding: 10px 14px;
