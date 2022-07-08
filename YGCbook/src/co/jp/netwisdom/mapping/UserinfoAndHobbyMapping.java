@@ -16,6 +16,7 @@ public class UserinfoAndHobbyMapping implements IResultSetMapping{
 				rs.getString(i++),
 				rs.getString(i++),
 				rs.getString(i++),
+				rs.getString(i++),
 				rs.getString(i++));
 		
 		return userinfoAndHobby;

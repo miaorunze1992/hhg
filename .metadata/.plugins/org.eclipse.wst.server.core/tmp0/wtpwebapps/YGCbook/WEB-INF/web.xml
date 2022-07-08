@@ -612,6 +612,16 @@
   </servlet-mapping>
   
   
+    <servlet>
+  	<servlet-name>initServlet</servlet-name>
+  	<servlet-class>co.jp.netwisdom.servlet.InitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>initServlet</servlet-name>
+  	<url-pattern>/userInit</url-pattern>
+  </servlet-mapping>
+  
+  
   
   
   

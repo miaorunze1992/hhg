@@ -74,3 +74,9 @@
 0:0:0:0:0:0:0:1 - - [05/Jul/2022:16:47:26 +0900] "GET /YGCbook/search?username=&major=1 HTTP/1.1" 200 1852
 0:0:0:0:0:0:0:1 - - [05/Jul/2022:16:47:28 +0900] "GET /YGCbook/search?username=&major=2 HTTP/1.1" 200 1453
 0:0:0:0:0:0:0:1 - - [05/Jul/2022:16:47:31 +0900] "GET /YGCbook/search?username=&major= HTTP/1.1" 200 2353
+127.0.0.1 - - [05/Jul/2022:17:20:02 +0900] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:20:15 +0900] "GET /YGCbook/search?username=&major= HTTP/1.1" 200 1601
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:21:40 +0900] "GET /YGCbook/search?username=&major= HTTP/1.1" 200 1739
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:21:50 +0900] "GET /YGCbook/search?username=&major=1 HTTP/1.1" 200 1418
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:21:53 +0900] "GET /YGCbook/search?username=&major=2 HTTP/1.1" 200 1246
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:21:56 +0900] "GET /YGCbook/search?username=&major=0 HTTP/1.1" 200 1243

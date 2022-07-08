@@ -31,7 +31,7 @@
 	</form>
 	<hr>
 	<table border="1">
-		<tr>
+		<tr style="background-color:yellow">
 			<th>姓名</th>
 			<th>性别</th>
 			<th>专业</th>
@@ -39,9 +39,11 @@
 			<th>简介</th>
 		</tr>
 		<% if(dtos!=null){ %>
+			<% int i = 0;%>
 			<% for(UserinfoAndHobbyDTO dto :dtos){%>
-			<tr>
-				<td><%=dto.getUsername() %></td>
+			<% i++;%>
+			<tr style="background-color:<%= i%2==1?"grey":"green"%>">
+				<td><a href="userInit?username=<%=dto.getUsername()%>"><%=dto.getUsername() %></a></td>
 				<td><%=dto.getSex().replace("0", "男").replace("1", "女")%></td>
 				<td><%=dto.getMajor().replace("0", "计算机").replace("1", "数学").replace("2", "英语") %></td>
 				<td>

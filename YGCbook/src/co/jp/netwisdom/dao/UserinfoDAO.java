@@ -36,12 +36,32 @@ public class UserinfoDAO {
 	}
 
 	
+	public List<UserinfoAndHobby> selectUserInfoAndHobby(String username){
+		
+		String sql = "select ui.username,ui.password,ui.sex,ui.major,hb.hobby,ui.intro from userinfo ui left join hobby hb on ui.username=hb.username where 1=1";
+		
+		sql = sql + " and ui.username = '" + username + "' ";
+			
+		
+		List<UserinfoAndHobby> list = new ArrayList<>();
+		
+		try {
+			list = template.selete(sql, new UserinfoAndHobbyMapping());
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return list;
+		
+	}
+	
+	
 	public List<UserinfoAndHobby> selectUserInfoAndHobby(String username,String sex,String major){
 		
-		String sql = "select ui.username,ui.sex,ui.major,hb.hobby,ui.intro from userinfo ui left join hobby hb on ui.username=hb.username where 1=1";
+		String sql = "select ui.username,ui.password,ui.sex,ui.major,hb.hobby,ui.intro from userinfo ui left join hobby hb on ui.username=hb.username where 1=1";
 		
 		if(!username.equals("")){
-			sql = sql + " and username = '" + username + "' ";
+			sql = sql + " and ui.username = '" + username + "' ";
 			
 		}
 		

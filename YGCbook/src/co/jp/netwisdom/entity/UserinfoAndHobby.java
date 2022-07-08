@@ -5,6 +5,7 @@ import java.util.List;
 public class UserinfoAndHobby {
 	
 	private String username;
+	private String password;
 	private String sex;
 	private String major;
 	private String hobby;
@@ -40,14 +41,22 @@ public class UserinfoAndHobby {
 	public void setIntro(String intro) {
 		this.intro = intro;
 	}
-	public UserinfoAndHobby(String username, String sex, String major, String hobby, String intro) {
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public UserinfoAndHobby(String username, String password, String sex, String major, String hobby, String intro) {
 		super();
 		this.username = username;
+		this.password = password;
 		this.sex = sex;
 		this.major = major;
 		this.hobby = hobby;
 		this.intro = intro;
 	}
+
 	
 
 }

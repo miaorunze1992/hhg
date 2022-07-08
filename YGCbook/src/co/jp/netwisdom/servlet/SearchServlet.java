@@ -39,6 +39,7 @@ public class SearchServlet extends HttpServlet{
 				// 通过构造方法创建dto
 				UserinfoAndHobbyDTO dto = new UserinfoAndHobbyDTO(
 						one.getUsername(),
+						one.getPassword(),
 						one.getSex(),
 						one.getMajor(),
 						one.getIntro()
